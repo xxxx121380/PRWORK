@@ -1,0 +1,80 @@
+random-amount: '6'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 防御值
+      min: Random(0.7,1.1)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 6
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 元素抗性
+      min: Random(0.1,0.15)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&f◈ &f[固有词缀]  &f元素抗性&f {attribute.streng.summary}'
+      order: 5
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 骑士技能加成
+      min: RandomInt(1,1)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f◈ &f[固有词缀]  &f骑士技能加成&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 格挡率
+      min: Random(0.25,0.25)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&6◈ &f[固有词缀]  &6格挡率&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀5:
+    type: attribute
+    data:
+      id: 物理减伤
+      min: RandomInt(2,3)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&d◈ &f[固有词缀]  &d物理减伤&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀6:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(15,20)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

@@ -1,0 +1,67 @@
+random-amount: '5'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 火焰伤害
+      min: RandomInt(1,6)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&4◈ &f[固有词缀]  &4火焰伤害&f {attribute.streng.summary}'
+      order: 5
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 防御值
+      min: Random(0.2,0.3)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 法师元素技能加成
+      min: RandomInt(1,1)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f◈ &f[固有词缀]  &f法师元素技能加成&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(8,10)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀5:
+    type: attribute
+    data:
+      id: 法力回复
+      min: Random(0.2,0.25)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&b◈ &f[固有词缀]  &b法力回复&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

@@ -1,0 +1,27 @@
+template: 黄装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o将钻石嵌入锁子甲，这真的是战甲而不是奢侈'
+- '&7&o品？不过以钻石的刚度这确实是一件好甲。'
+- '                                 &7&m     &7&o遗忘城主'
+custom: {}
+sell: 
+  ks: '0'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '800'
+custom-model-data: 0
+entry:
+  basic: 钻石锁子甲基础属性
+  random: 黄_类别_26_等级_70
+type: iron_chestplate
+gem:
+  driller: false
+hide: 63
+need-level: '72'
+template-not-appraisal: 随机衣服
+name: 钻石锁子甲
+can-streng: false
+unbreakable: true

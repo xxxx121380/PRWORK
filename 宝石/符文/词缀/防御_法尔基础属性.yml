@@ -1,0 +1,11 @@
+entries:
+  词缀:
+    type: attribute
+    data:
+      id: 力量
+      min: 10
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&5&l◈ &f[符文词缀]&b{attribute.name} &f{attribute.value}'

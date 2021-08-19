@@ -1,0 +1,6 @@
+普通_7级掉落包:
+- type=pxrpgexp;amount=130;prob=1
+- type=money;amount=45;prob=0.1
+- type=equip;id=RandomWeight(random(1,6){1,1,1,1,1,1:白_布甲,白_皮手套,白_皮甲,白_硬皮甲,白_重手套,白_布面甲});prob=0.025;level=7
+- type=equip;id=RandomWeight(random(1,6){1,1,1,1,1,1:蓝_布甲,蓝_皮手套,蓝_皮甲,蓝_硬皮甲,蓝_重手套,蓝_布面甲});prob=0.025;level=7
+- type=equip;id=RandomWeight(random(1,6){1,1,1,1,1,1:黄_布甲,黄_皮手套,黄_皮甲,黄_硬皮甲,黄_重手套,黄_布面甲});prob=0.025;level=7

@@ -1,0 +1,30 @@
+template: 黄装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o传说此鳞甲取材自地狱女王美杜莎的鳞片，经'
+- '&7&o过锻造大师谢尔兜七七四十九九天的呕心沥血'
+- '&7&o的锤打而成。千百年来，经过时光的冲刷，其'
+- '&7&o防御力早已不如从前，且在神秘力量的影响下'
+- '&7&o，历代主人都变得嗜血成性。'
+- '                               &7&m     &7&oShadow阁下'
+custom: {}
+sell: 
+  ks: '0'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '800'
+custom-model-data: 0
+entry:
+  basic: 地狱锻甲基础属性
+  random: 黄_类别_26_等级_74
+type: iron_chestplate
+gem:
+  driller: false
+hide: 63
+need-level: '78'
+template-not-appraisal: 随机衣服
+name: 地狱锻甲
+can-streng: false
+unbreakable: true

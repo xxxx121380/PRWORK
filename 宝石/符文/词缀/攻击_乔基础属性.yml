@@ -1,0 +1,11 @@
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 减目标防御
+      min: 0.75
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&5&l◈ &f[符文词缀]&b{attribute.name} &f{attribute.value}'

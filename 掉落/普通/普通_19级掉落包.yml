@@ -1,0 +1,14 @@
+普通_19级掉落包:
+- type=pxrpgexp;amount=1295;prob=1
+- type=money;amount=173;prob=0.1
+- type=equip;id=RandomWeight(random(1,12){1,1,1,1,1,1,1,1,1,1,1,1:白_布甲,白_皮手套,白_皮甲,白_硬皮甲,白_重手套,白_布面甲,白_镶嵌甲,白_锁环甲,白_锁链手套,白_鳞甲,白_锁子甲,白_胸甲});prob=0.025;level=19
+- type=equip;id=RandomWeight(random(1,12){1,1,1,1,1,1,1,1,1,1,1,1:蓝_布甲,蓝_皮手套,蓝_皮甲,蓝_硬皮甲,蓝_重手套,蓝_布面甲,蓝_镶嵌甲,蓝_锁环甲,蓝_锁链手套,蓝_鳞甲,蓝_锁子甲,蓝_胸甲});prob=0.025;level=19
+- type=equip;id=RandomWeight(random(1,12){1,1,1,1,1,1,1,1,1,1,1,1:黄_布甲,黄_皮手套,黄_皮甲,黄_硬皮甲,黄_重手套,黄_布面甲,黄_镶嵌甲,黄_锁环甲,黄_锁链手套,黄_鳞甲,黄_锁子甲,黄_胸甲});prob=0.025;level=19
+- type=item;id=艾尔;level=11;prob=0.0002529
+- type=item;id=艾德;level=11;prob=0.0002095
+- type=item;id=特尔;level=13;prob=0.0001676
+- type=item;id=那夫;level=13;prob=0.0001117
+- type=item;id=爱斯;level=15;prob=0.0000838
+- type=item;id=伊司;level=15;prob=0.0000698
+- type=item;id=塔尔;level=17;prob=0.0000559
+- type=item;id=拉尔;level=19;prob=0.0000489

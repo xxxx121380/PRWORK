@@ -1,0 +1,330 @@
+碎裂的紫宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/碎裂的紫宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "碎裂的紫宝石"
+碎裂的绿宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/碎裂的绿宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "碎裂的绿宝石"
+碎裂的黄宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/碎裂的黄宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "碎裂的黄宝石"
+碎裂的蓝宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/碎裂的蓝宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "碎裂的蓝宝石"
+碎裂的红宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/碎裂的红宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "碎裂的红宝石"
+碎裂的钻石:
+  type: 'icon'
+  path: 'textures/misc/bs/碎裂的钻石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "碎裂的钻石"
+裂开的紫宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/裂开的紫宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "裂开的紫宝石"
+裂开的绿宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/裂开的绿宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "裂开的绿宝石"
+裂开的黄宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/裂开的黄宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "裂开的黄宝石"
+裂开的蓝宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/裂开的蓝宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "裂开的蓝宝石"
+裂开的红宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/裂开的红宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "裂开的红宝石"
+裂开的钻石:
+  type: 'icon'
+  path: 'textures/misc/bs/裂开的钻石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "裂开的钻石"
+标准的紫宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/标准的紫宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "标准的紫宝石"
+标准的绿宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/标准的绿宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "标准的绿宝石"
+标准的黄宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/标准的黄宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "标准的黄宝石"
+标准的蓝宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/标准的蓝宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "标准的蓝宝石"
+标准的红宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/标准的红宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "标准的红宝石"
+标准的钻石:
+  type: 'icon'
+  path: 'textures/misc/bs/标准的钻石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "标准的钻石"
+无瑕的紫宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/无瑕的紫宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "无瑕的紫宝石"
+无瑕的绿宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/无瑕的绿宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "无瑕的绿宝石"
+无瑕的黄宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/无瑕的黄宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "无瑕的黄宝石"
+无瑕的蓝宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/无瑕的蓝宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "无瑕的蓝宝石"
+无瑕的红宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/无瑕的红宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "无瑕的红宝石"
+无瑕的钻石:
+  type: 'icon'
+  path: 'textures/misc/bs/无瑕的钻石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "无瑕的钻石"
+完美的紫宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/完美的紫宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "完美的紫宝石"
+完美的绿宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/完美的绿宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "完美的绿宝石"
+完美的黄宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/完美的黄宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "完美的黄宝石"
+完美的蓝宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/完美的蓝宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "完美的蓝宝石"
+完美的红宝石:
+  type: 'icon'
+  path: 'textures/misc/bs/完美的红宝石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "完美的红宝石"
+完美的钻石:
+  type: 'icon'
+  path: 'textures/misc/bs/完美的钻石.png'
+  offsetX: 0.0
+  offsetY: 0.0
+  offsetZ: 0.0
+  scale: 1
+  size: 0.5
+  matchCondition:
+    type: 'stone'
+    match: "完美的钻石"

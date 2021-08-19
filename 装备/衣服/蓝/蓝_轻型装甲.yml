@@ -1,0 +1,27 @@
+template: 蓝装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o由帝国工匠专门为侦察兵所打造的盔甲，穿着'
+- '&7&o轻便，但是装甲较薄。'
+- '                                 &7&m     &7&oshiwtime'
+custom: {}
+sell: 
+  ks: '2'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '400'
+custom-model-data: 0
+entry:
+  basic: 轻型装甲基础属性
+  random: 蓝_类别_26_等级_34
+type: iron_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '35'
+template-not-appraisal: 随机衣服
+name: 轻型装甲
+can-streng: false
+unbreakable: true

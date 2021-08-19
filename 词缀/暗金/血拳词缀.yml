@@ -1,0 +1,65 @@
+random-amount: '5'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 防御值
+      min: Random(0.1,0.2)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 5
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 额外生命值
+      min: RandomInt(30,40)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&c◈ &f[固有词缀]  &c额外生命值&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 最小伤害
+      min: RandomInt(4,5)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&7◈ &f[固有词缀]  &7最小伤害&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 攻击速度
+      min: RandomInt(0,0)
+      max: RandomInt(0,0)
+      float: 0.0
+      display:
+      - '&1◈ &f[固有词缀]  &1攻击速度&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀5:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(8,8)
+      max: RandomInt(10,10)
+      float: 0.0
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

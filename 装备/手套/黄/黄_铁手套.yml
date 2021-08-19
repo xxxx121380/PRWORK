@@ -1,0 +1,26 @@
+template: 黄装手套模板
+damage: 0
+need-class: []
+equip-type: 手套
+can-reset: false
+introduce:
+- '&7&o完全由铁包裹着的手套，虽然笨重但防御力惊'
+- '&7&o人。'
+- '                             &7&m     &7&oShadow阁下'
+custom: {}
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '300'
+custom-model-data: 0
+entry:
+  basic: 铁手套基础属性
+  random: 黄_类别_27_等级_21
+type: stone
+gem:
+  driller: false
+hide: 63
+need-level: '21'
+template-not-appraisal: 随机手套
+name: 铁手套
+can-streng: false
+unbreakable: true

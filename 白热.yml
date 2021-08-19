@@ -1,0 +1,393 @@
+白热:
+  name: '白热'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'None'
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  msg: '&6{player} &2has cast &6{skill}'
+  combo: ''
+  indicator: '2D'
+  icon: 'ACACIA_DOOR'
+  icon-data: 0
+  icon-lore:
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  attributes:
+    level-base: 0
+    level-scale: 0
+    cost-base: 0
+    cost-scale: 0
+    cooldown-base: 0
+    cooldown-scale: 0
+    mana-base: 0
+    mana-scale: 0
+    points-spent-req-base: 0
+    points-spent-req-scale: 0
+    incompatible:
+    - ''
+  components:
+    Cast-a:
+      type: 'trigger'
+      data:
+        icon-key: ''
+      children:
+        Repeat-b:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            repetitions-base: 2
+            repetitions-scale: 0
+            period: 0.5
+            delay: 0.5
+            stop-on-fail: 'False'
+          children:
+            Nearest-c:
+              type: 'target'
+              data:
+                icon-key: ''
+                radius-base: 10
+                radius-scale: 0
+                group: 'Enemy'
+                wall: 'False'
+                caster: 'False'
+                max-base: 1
+                max-scale: 0
+              children:
+                Warp Target-d:
+                  type: 'mechanic'
+                  data:
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Caster to Target'
+                Damage-e:
+                  type: 'mechanic'
+                  data:
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: 1
+                    value-scale: 0
+                    true: 'False'
+                    classifier: '主体伤害'
+                Flag-f:
+                  type: 'condition'
+                  data:
+                    icon-key: ''
+                    type: 'Set'
+                    key: '牺牲白热'
+                  children:
+                    Damage-g:
+                      type: 'mechanic'
+                      data:
+                        icon-key: ''
+                        counts: 'True'
+                        type: 'Damage'
+                        value-base: 1
+                        value-scale: 0
+                        true: 'False'
+                        classifier: '主体伤害'
+            Sound-h:
+              type: 'mechanic'
+              data:
+                icon-key: ''
+                counts: 'True'
+                sound: 'Entity Enderdragon Flap'
+                volume-base: 100
+                volume-scale: 0
+                pitch-base: 1
+                pitch-scale: 0
+            Delay-i:
+              type: 'mechanic'
+              data:
+                icon-key: ''
+                counts: 'True'
+                delay-base: 0.1
+                delay-scale: 0
+              children:
+                Particle Animation-j:
+                  type: 'mechanic'
+                  data:
+                    icon-key: ''
+                    counts: 'True'
+                    steps: 15
+                    frequency: 0.05
+                    angle: -165
+                    start: 80
+                    duration-base: 0.15
+                    duration-scale: 0
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: 1.5
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
+                    particle: 'Block Crack'
+                    material: 'White Shulker Box'
+                    type: 0
+                    arrangement: 'Circle'
+                    radius-base: 0.3
+                    radius-scale: 0
+                    particles-base: 4
+                    particles-scale: 0
+                    direction: 'XZ'
+                    forward: 1.5
+                    upward: 0.3
+                    right: 0
+                Sound-k:
+                  type: 'mechanic'
+                  data:
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Wither Break Block'
+                    volume-base: 100
+                    volume-scale: 0
+                    pitch-base: 1
+                    pitch-scale: 0
+                Particle Animation-l:
+                  type: 'mechanic'
+                  data:
+                    icon-key: ''
+                    counts: 'True'
+                    steps: 10
+                    frequency: 0.05
+                    angle: -165
+                    start: 80
+                    duration-base: 0.15
+                    duration-scale: 0
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: 1.5
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
+                    particle: 'Block Crack'
+                    material: 'Redstone Block'
+                    type: 0
+                    arrangement: 'Circle'
+                    radius-base: 0.1
+                    radius-scale: 0
+                    particles-base: 2
+                    particles-scale: 0
+                    direction: 'XZ'
+                    forward: 1.5
+                    upward: 0.3
+                    right: 0
+        Repeat-m:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            repetitions-base: 5
+            repetitions-scale: 0
+            period: 0.5
+            delay: 0
+            stop-on-fail: 'False'
+          children:
+            Particle Animation-n:
+              type: 'mechanic'
+              data:
+                icon-key: ''
+                counts: 'True'
+                steps: 5
+                frequency: 0.05
+                angle: 360
+                start: 0
+                duration-base: 0.3
+                duration-scale: 0
+                h-translation-base: 0
+                h-translation-scale: 0
+                v-translation-base: 0
+                v-translation-scale: 0
+                h-cycles: 1
+                v-cycles: 1
+                particle: 'End Rod'
+                arrangement: 'Circle'
+                radius-base: 0.01
+                radius-scale: 0
+                particles-base: 1
+                particles-scale: 0
+                direction: 'XZ'
+                visible-radius: 25
+                dx: 0
+                dy: 0
+                dz: 0
+                speed: 0
+                amount: 1
+                forward: 1
+                upward: 0.3
+                right: 0
+            Delay-o:
+              type: 'mechanic'
+              data:
+                icon-key: ''
+                counts: 'True'
+                delay-base: 0.4
+                delay-scale: 0
+              children:
+                Sound-p:
+                  type: 'mechanic'
+                  data:
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Experience Orb Pickup'
+                    volume-base: 100
+                    volume-scale: 0
+                    pitch-base: 1
+                    pitch-scale: 0
+        Repeat-q:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            repetitions-base: 10
+            repetitions-scale: 0
+            period: 0.5
+            delay: 0.5
+            stop-on-fail: 'False'
+          children:
+            Chance-r:
+              type: 'condition'
+              data:
+                icon-key: ''
+                chance-base: 10
+                chance-scale: 1
+              children:
+                Nearest-s:
+                  type: 'target'
+                  data:
+                    icon-key: ''
+                    radius-base: 10
+                    radius-scale: 0
+                    group: 'Enemy'
+                    wall: 'False'
+                    caster: 'False'
+                    max-base: 1
+                    max-scale: 0
+                  children:
+                    Warp Target-t:
+                      type: 'mechanic'
+                      data:
+                        icon-key: ''
+                        counts: 'True'
+                        type: 'Caster to Target'
+                    Damage-u:
+                      type: 'mechanic'
+                      data:
+                        icon-key: ''
+                        counts: 'True'
+                        type: 'Damage'
+                        value-base: 3
+                        value-scale: 1
+                        true: 'False'
+                        classifier: 'default'
+                    Flag-v:
+                      type: 'condition'
+                      data:
+                        icon-key: ''
+                        type: 'Set'
+                        key: '牺牲白热'
+                      children:
+                        Damage-w:
+                          type: 'mechanic'
+                          data:
+                            icon-key: ''
+                            counts: 'True'
+                            type: 'Damage'
+                            value-base: 1
+                            value-scale: 0
+                            true: 'False'
+                            classifier: '主体伤害'
+                Delay-x:
+                  type: 'mechanic'
+                  data:
+                    icon-key: ''
+                    counts: 'True'
+                    delay-base: 0.1
+                    delay-scale: 0
+                  children:
+                    Particle Animation-y:
+                      type: 'mechanic'
+                      data:
+                        icon-key: ''
+                        counts: 'True'
+                        steps: 15
+                        frequency: 0.05
+                        angle: 165
+                        start: -80
+                        duration-base: 0.15
+                        duration-scale: 0
+                        h-translation-base: 0
+                        h-translation-scale: 0
+                        v-translation-base: 1.5
+                        v-translation-scale: 0
+                        h-cycles: 1
+                        v-cycles: 1
+                        particle: 'Block Crack'
+                        material: 'White Shulker Box'
+                        type: 0
+                        arrangement: 'Circle'
+                        radius-base: 0.3
+                        radius-scale: 0
+                        particles-base: 4
+                        particles-scale: 0
+                        direction: 'XZ'
+                        forward: 1.5
+                        upward: 0.3
+                        right: 0
+                    Sound-z:
+                      type: 'mechanic'
+                      data:
+                        icon-key: ''
+                        counts: 'True'
+                        sound: 'Entity Wither Break Block'
+                        volume-base: 100
+                        volume-scale: 0
+                        pitch-base: 1
+                        pitch-scale: 0
+                    Particle Animation-ab:
+                      type: 'mechanic'
+                      data:
+                        icon-key: ''
+                        counts: 'True'
+                        steps: 10
+                        frequency: 0.05
+                        angle: 165
+                        start: -80
+                        duration-base: 0.15
+                        duration-scale: 0
+                        h-translation-base: 0
+                        h-translation-scale: 0
+                        v-translation-base: 1.5
+                        v-translation-scale: 0
+                        h-cycles: 1
+                        v-cycles: 1
+                        particle: 'Block Crack'
+                        material: 'Redstone Block'
+                        type: 0
+                        arrangement: 'Circle'
+                        radius-base: 0.1
+                        radius-scale: 0
+                        particles-base: 2
+                        particles-scale: 0
+                        direction: 'XZ'
+                        forward: 1.5
+                        upward: 0.3
+                        right: 0
+                Sound-bb:
+                  type: 'mechanic'
+                  data:
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Enderdragon Flap'
+                    volume-base: 100
+                    volume-scale: 0
+                    pitch-base: 1
+                    pitch-scale: 0

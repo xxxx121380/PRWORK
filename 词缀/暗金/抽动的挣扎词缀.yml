@@ -1,0 +1,41 @@
+random-amount: '3'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 力量
+      min: RandomInt(8,10)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f◈ &f[固有词缀]  &f力量&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 敏捷
+      min: RandomInt(8,10)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&a◈ &f[固有词缀]  &a敏捷&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(20,25)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

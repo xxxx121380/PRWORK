@@ -1,0 +1,67 @@
+random-amount: '5'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 增强伤害
+      min: Random(0.2,0.3)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&5◈ &f[固有词缀]  &5增强伤害&f {attribute.streng.summary}'
+      order: 5
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 元素抗性
+      min: Random(0.07,0.1)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&f◈ &f[固有词缀]  &f元素抗性&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 力量
+      min: RandomInt(15,20)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f◈ &f[固有词缀]  &f力量&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(20,25)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀5:
+    type: attribute
+    data:
+      id: 减目标伤害
+      min: Random(0.07,0.1)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&7◈ &f[固有词缀]  &7减目标伤害&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

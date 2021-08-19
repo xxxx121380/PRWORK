@@ -1,0 +1,26 @@
+template: 白装手套模板
+damage: 0
+need-class: []
+equip-type: 手套
+can-reset: false
+introduce:
+- '&7&o圣堂武士长为对付恶魔而制作的对恶魔有着巨'
+- '&7&o大杀伤的手套。'
+- '                             &7&m     &7&oShadow阁下'
+custom: {}
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '600'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 十字军铁手套基础属性
+type: stone
+gem:
+  driller: false
+hide: 63
+need-level: '58'
+template-not-appraisal: 随机手套
+name: 十字军铁手套
+can-streng: false
+unbreakable: true

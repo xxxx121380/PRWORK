@@ -1,0 +1,13 @@
+entries:
+  鲨皮手套_基础_防御值:
+    type: attribute
+    data:
+      id: 防御值
+      min: randomInt(33,39)
+      max: {min}
+      sign: false
+      float: 0
+      order: 2
+      display:
+      - '&c&m  &6&m  &e&m  &a&m  &3&m  &9&m  &5&m  &f&l基  础  属  性&r&5&m  &9&m  &3&m  &a&m  &e&m  &6&m  &c&m  '
+      - '&7▣ 防御值: &9{attribute.streng.summary}'

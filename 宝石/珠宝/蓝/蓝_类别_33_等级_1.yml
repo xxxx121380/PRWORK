@@ -1,0 +1,80 @@
+random-amount: 'if(RandomInt(0,100),>,75{2,1})'
+entries:
+  后缀1:
+    type: attribute
+    data:
+      id: 准确率
+      min: RandomInt(10,20)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&6◈ &f[后缀]  &9镍  &6准确率&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀2
+      - 后缀3
+  后缀2:
+    type: attribute
+    data:
+      id: 增强伤害
+      min: Random(0.05,0.1)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&5◈ &f[后缀]  &9朱砂  &5增强伤害&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀1
+      - 后缀3
+  后缀3:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(5,8)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f◈ &f[后缀]  &9苍白  &f防御值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀1
+      - 后缀2
+  前缀1:
+    type: attribute
+    data:
+      id: 额外生命值
+      min: RandomInt(3,3)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&c◈ &f[前缀]  &9渴望  &c额外生命值&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+      exclude:
+      - 前缀2
+  前缀2:
+    type: attribute
+    data:
+      id: 毒素伤害
+      min: RandomInt(2,2)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&a◈ &f[前缀]  &9嫉妒  &a毒素伤害&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+      exclude:
+      - 前缀1

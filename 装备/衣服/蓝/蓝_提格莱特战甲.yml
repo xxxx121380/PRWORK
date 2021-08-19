@@ -1,0 +1,27 @@
+template: 蓝装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o为重战士打造的纯钢护甲，没有任何花里胡哨'
+- '&7&o的修饰，沉重而有安全感。'
+- '                                 &7&m     &7&o遗忘城主'
+custom: {}
+sell: 
+  ks: '2'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '500'
+custom-model-data: 0
+entry:
+  basic: 提格莱特战甲基础属性
+  random: 蓝_类别_26_等级_41
+type: iron_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '43'
+template-not-appraisal: 随机衣服
+name: 提格莱特战甲
+can-streng: false
+unbreakable: true

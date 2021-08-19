@@ -1,0 +1,28 @@
+template: 蓝装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o据说是以特殊技术将死亡的海蛇精炼后制成的'
+- '&7&o盔甲；闪耀着绿光时，会在受伤的同时发射毒'
+- '&7&o液。'
+- '                                     &7&m     &7&o捌玖'
+custom: {}
+sell: 
+  ks: '2'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '400'
+custom-model-data: 0
+entry:
+  basic: 海蛇皮甲基础属性
+  random: 蓝_类别_26_等级_36
+type: iron_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '36'
+template-not-appraisal: 随机衣服
+name: 海蛇皮甲
+can-streng: false
+unbreakable: true

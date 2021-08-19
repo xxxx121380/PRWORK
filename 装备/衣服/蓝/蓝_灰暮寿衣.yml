@@ -1,0 +1,28 @@
+template: 蓝装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o古时候高级将领死后穿戴的衣物，但被盗墓贼'
+- '&7&o盗出，此物饱含着死者强烈的怨恨，要不是拥'
+- '&7&o有强大的防御力，真心不推荐使用！'
+- '                               &7&m     &7&oShadow阁下'
+custom: {}
+sell: 
+  ks: '3'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '700'
+custom-model-data: 0
+entry:
+  basic: 灰暮寿衣基础属性
+  random: 蓝_类别_26_等级_60
+type: iron_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '65'
+template-not-appraisal: 随机衣服
+name: 灰暮寿衣
+can-streng: false
+unbreakable: true

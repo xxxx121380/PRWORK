@@ -1,0 +1,26 @@
+template: 黄装手套模板
+damage: 0
+need-class: []
+equip-type: 手套
+can-reset: false
+introduce:
+- '&7&o用魔怪食尸鬼的骨骼制作而成的手镯，在关键'
+- '&7&o时刻可比手套有用。'
+- '                             &7&m     &7&oShadow阁下'
+custom: {}
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '400'
+custom-model-data: 0
+entry:
+  basic: 重型手镯基础属性
+  random: 黄_类别_27_等级_31
+type: stone
+gem:
+  driller: false
+hide: 63
+need-level: '33'
+template-not-appraisal: 随机手套
+name: 重型手镯
+can-streng: false
+unbreakable: true

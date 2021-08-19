@@ -1,0 +1,67 @@
+random-amount: '5'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 敏捷
+      min: RandomInt(8,10)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&a◈ &f[固有词缀]  &a敏捷&f {attribute.streng.summary}'
+      order: 5
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 额外生命值
+      min: RandomInt(15,20)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&c◈ &f[固有词缀]  &c额外生命值&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 格挡率
+      min: Random(0.3,0.3)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&6◈ &f[固有词缀]  &6格挡率&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(25,30)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀5:
+    type: attribute
+    data:
+      id: 减目标准确
+      min: Random(0.15,0.25)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&7◈ &f[固有词缀]  &7减目标准确&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

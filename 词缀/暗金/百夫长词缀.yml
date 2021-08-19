@@ -1,0 +1,80 @@
+random-amount: '6'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 准确率
+      min: RandomInt(40,50)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&6◈ &f[固有词缀]  &6准确率&f {attribute.streng.summary}'
+      order: 6
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 额外法力值
+      min: RandomInt(10,15)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&b◈ &f[固有词缀]  &b额外法力值&f {attribute.streng.summary}'
+      order: 5
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 额外生命值
+      min: RandomInt(16,22)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&c◈ &f[固有词缀]  &c额外生命值&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 生命回复
+      min: RandomInt(4,6)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&c◈ &f[固有词缀]  &c生命回复&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀5:
+    type: attribute
+    data:
+      id: 物理减伤
+      min: RandomInt(1,2)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&d◈ &f[固有词缀]  &d物理减伤&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀6:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(20,30)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

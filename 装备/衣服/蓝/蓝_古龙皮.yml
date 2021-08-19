@@ -1,0 +1,39 @@
+template: 蓝装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o在这块充满了传说史诗的大地上，流传着一个'
+- '&7&o又一个荒古且荒谬的传说，而在各个人类聚落'
+- '&7&o之间流传最为广泛与热烈的，还是关于从没有'
+- '&7&o人见过的巨龙的传说，传说中的巨龙拥有能撕'
+- '&7&o裂这世间万物的爪牙与承受一切伤害的鳞甲，'
+- '&7&o是不应该属于这个世间的生物，传说它们高傲'
+- '&7&o无比，巨龙从不低下它们的头颅，哪怕最后被'
+- '&7&o同样只存在于传说中的天使长们钉死在崩裂的'
+- '&7&o大地上，它们依旧昂着那傲视世间万物的头颅'
+- '&7&o。这张面色古朴灰蒙的巨大外皮似乎继承了那'
+- '&7&o传说中巨龙的意志，哪怕传承了极为漫长的岁'
+- '&7&o月，依旧没有任何人可以将它加工打造成为一'
+- '&7&o件正常护甲，于是这么一块完整，坚固的“皮'
+- '&7&o甲”，从那无从考察的远古流传至今。'
+- '                             &7&m     &7&o石雕上的青鸟'
+custom: {}
+sell: 
+  ks: '3'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '700'
+custom-model-data: 0
+entry:
+  basic: 古龙皮基础属性
+  random: 蓝_类别_26_等级_60
+type: iron_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '67'
+template-not-appraisal: 随机衣服
+name: 古龙皮
+can-streng: false
+unbreakable: true

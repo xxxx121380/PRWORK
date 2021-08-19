@@ -1,0 +1,28 @@
+template: 白装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o以荒野中的野兽内皮制成的护甲，因其材料的'
+- '&7&o特殊性使用了与寻常皮甲不同的制造工艺，看'
+- '&7&o上去和用上去。。。比寻常皮甲要硬。 。'
+- '                             &7&m     &7&o石雕上的青鸟'
+custom: {}
+sell: 
+  ks: '2'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '100'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 硬皮甲基础属性
+type: diamond_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '5'
+template-not-appraisal: 随机衣服
+name: 硬皮甲
+can-streng: false
+unbreakable: true

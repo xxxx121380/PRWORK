@@ -1,0 +1,55 @@
+drops:
+- 普通_45级掉落包
+health: '{att.额外生命值}'
+entry:
+  basic: YYYH45基础属性
+damage-types:
+  player:
+    mmskill: {}
+    skillapi: {}
+    damage:
+      物理伤害: true
+    projectile:
+      arrow:
+        damage:
+          物理伤害: true
+  mobs:
+    mmskill: {}
+    skillapi: {}
+    damage:
+      物理伤害: true
+    projectile:
+      arrow:
+        damage:
+          物理伤害: true
+fight-formula:
+  player:
+    mmskill: {}
+    skillapi: {}
+    damage:
+      物理伤害:
+        damage:
+          hit: '%papi_c:伤害.计算.怪打人.命中%'
+          value: '%papi_c:伤害.计算.怪打人.物理伤害%'
+    projectile:
+      arrow:
+        damage:
+      物理伤害:
+        damage:
+          hit: '%papi_c:伤害.计算.怪打人.命中%'
+          value: '%papi_c:伤害.计算.怪打人.物理伤害%'
+  mob:
+    mmskill: {}
+    skillapi: {}
+    damage:
+      物理伤害:
+        damage:
+          hit: '%papi_c:伤害.计算.怪打人.命中%'
+          value: '%papi_c:伤害.计算.怪打人.物理伤害%'
+    projectile:
+      arrow:
+        damage:
+          物理伤害:
+            damage:
+              hit: '%papi_c:伤害.计算.怪打人.命中%'
+              value: '%papi_c:伤害.计算.怪打人.物理伤害%'

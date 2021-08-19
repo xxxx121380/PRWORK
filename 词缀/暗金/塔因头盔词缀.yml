@@ -1,0 +1,15 @@
+random-amount: '1'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 全技能加成
+      min: RandomInt(1,1)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f◈ &f[固有词缀]  &f全技能加成&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

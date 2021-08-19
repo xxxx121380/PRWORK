@@ -1,0 +1,67 @@
+random-amount: '5'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 格挡率
+      min: Random(0.53,0.53)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&6◈ &f[固有词缀]  &6格挡率&f {attribute.streng.summary}'
+      order: 5
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 增强伤害
+      min: Random(0.5,0.75)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&5◈ &f[固有词缀]  &5增强伤害&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 防御值
+      min: Random(0.7,1)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 敏捷
+      min: RandomInt(7,10)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&a◈ &f[固有词缀]  &a敏捷&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀5:
+    type: attribute
+    data:
+      id: 格挡率
+      min: Random(0.25,0.25)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&6◈ &f[固有词缀]  &6格挡率&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

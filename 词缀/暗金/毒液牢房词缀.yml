@@ -1,0 +1,28 @@
+random-amount: '2'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 防御值
+      min: Random(0.6,1)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 抗毒
+      min: Random(0.7,0.9)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&a◈ &f[固有词缀]  &a抗毒&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

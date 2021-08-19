@@ -1,0 +1,67 @@
+random-amount: '5'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 毒素伤害
+      min: RandomInt(15,15)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&a◈ &f[固有词缀]  &a毒素伤害&f {attribute.streng.summary}'
+      order: 5
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 防御值
+      min: Random(1.3,1.6)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 抗毒
+      min: Random(0.25,0.3)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&a◈ &f[固有词缀]  &a抗毒&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 吸取生命
+      min: Random(0.004,0.005)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&c◈ &f[固有词缀]  &c吸取生命&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀5:
+    type: attribute
+    data:
+      id: 压碎打击
+      min: Random(0.04,0.05)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&d◈ &f[固有词缀]  &d压碎打击&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

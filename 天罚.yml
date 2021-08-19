@@ -1,0 +1,278 @@
+天罚:
+  name: '天罚'
+  type: 'Dynamic'
+  max-level: 5
+  skill-req: 'None'
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  msg: '&6{player} &2has cast &6{skill}'
+  combo: ''
+  indicator: '2D'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  icon-lore:
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&5Stamina: {attr:stamina}'
+  - '&2Cooldown: {attr:cooldown}'
+  attributes:
+    level-base: 0
+    level-scale: 0
+    cost-base: 0
+    cost-scale: 0
+    cooldown-base: 0
+    cooldown-scale: 0
+    mana-base: 0
+    mana-scale: 0
+    points-spent-req-base: 0
+    points-spent-req-scale: 0
+    incompatible:
+    - ''
+  components:
+    Cast-a:
+      type: 'trigger'
+      data:
+        icon-key: ''
+      children:
+        Offset-b:
+          type: 'target'
+          data:
+            icon-key: ''
+            forward-base: 0
+            forward-scale: 0
+            upward-base: 0
+            upward-scale: 0
+            right-base: 0
+            right-scale: 0
+          children:
+            Repeat-c:
+              type: 'mechanic'
+              data:
+                icon-key: ''
+                counts: 'True'
+                repetitions-base: 10
+                repetitions-scale: 0
+                period: 0.2
+                delay: 0.5
+                stop-on-fail: 'False'
+              children:
+                Offset-d:
+                  type: 'target'
+                  data:
+                    icon-key: ''
+                    forward-base: 罚
+                    forward-scale: 0
+                    upward-base: 0
+                    upward-scale: 0
+                    right-base: 罚1
+                    right-scale: 0
+                  children:
+                    Lightning-e:
+                      type: 'mechanic'
+                      data:
+                        icon-key: ''
+                        counts: 'True'
+                        damage: 'False'
+                        forward-base: 0
+                        forward-scale: 0
+                        right-base: 0
+                        right-scale: 0
+                    Sound-f:
+                      type: 'mechanic'
+                      data:
+                        icon-key: ''
+                        counts: 'True'
+                        sound: 'Entity Lightning Thunder'
+                        volume-base: 100
+                        volume-scale: 0
+                        pitch-base: 1
+                        pitch-scale: 0
+                    Area-g:
+                      type: 'target'
+                      data:
+                        icon-key: ''
+                        radius-base: 2
+                        radius-scale: 0
+                        group: 'Enemy'
+                        wall: 'False'
+                        caster: 'False'
+                        max-base: 99
+                        max-scale: 0
+                        random: 'False'
+                      children:
+                        Damage-h:
+                          type: 'mechanic'
+                          data:
+                            icon-key: ''
+                            counts: 'True'
+                            type: 'Damage'
+                            value-base: 1
+                            value-scale: 0
+                            true: 'False'
+                            classifier: '主体伤害'
+                        Command-i:
+                          type: 'mechanic'
+                          data:
+                            icon-key: ''
+                            counts: 'True'
+                            command: ''
+                            type: 'OP'
+                    Particle Animation-j:
+                      type: 'mechanic'
+                      data:
+                        icon-key: ''
+                        counts: 'True'
+                        steps: 20
+                        frequency: 0.05
+                        angle: 2880
+                        start: 0
+                        duration-base: 0.3
+                        duration-scale: 0
+                        h-translation-base: 0
+                        h-translation-scale: 0
+                        v-translation-base: 4
+                        v-translation-scale: 0
+                        h-cycles: 1
+                        v-cycles: 1
+                        particle: 'Flame'
+                        arrangement: 'Circle'
+                        radius-base: 0.01
+                        radius-scale: 0
+                        particles-base: 1
+                        particles-scale: 0
+                        direction: 'XZ'
+                        visible-radius: 25
+                        dx: 0
+                        dy: 0
+                        dz: 0
+                        speed: 0
+                        amount: 1
+                        forward: 1
+                        upward: 0
+                        right: 0
+                Value Random-k:
+                  type: 'mechanic'
+                  data:
+                    icon-key: ''
+                    counts: 'True'
+                    key: '罚'
+                    type: 'Normal'
+                    min-base: -14
+                    min-scale: 0
+                    max-base: 14
+                    max-scale: 0
+                Value Random-l:
+                  type: 'mechanic'
+                  data:
+                    icon-key: ''
+                    counts: 'True'
+                    key: '罚1'
+                    type: 'Normal'
+                    min-base: -14
+                    min-scale: 0
+                    max-base: 14
+                    max-scale: 0
+        Launch-m:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            relative: 'Target'
+            forward-base: 0
+            forward-scale: 0
+            upward-base: 1
+            upward-scale: 0
+            right-base: 0
+            right-scale: 0
+        Particle Animation-n:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            steps: 10
+            frequency: 0.05
+            angle: 1440
+            start: 90
+            duration-base: 2
+            duration-scale: 0
+            h-translation-base: 0
+            h-translation-scale: 0
+            v-translation-base: 0
+            v-translation-scale: 0
+            h-cycles: 1
+            v-cycles: 1
+            particle: 'Redstone'
+            arrangement: 'Circle'
+            radius-base: 0.01
+            radius-scale: 0
+            particles-base: 1
+            particles-scale: 0
+            direction: 'XZ'
+            visible-radius: 25
+            dx: 1
+            dy: 1
+            dz: 1
+            speed: 1
+            amount: 0
+            forward: 1.5
+            upward: 0
+            right: 0
+        Particle Animation-o:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            steps: 10
+            frequency: 0.05
+            angle: 1440
+            start: -90
+            duration-base: 2
+            duration-scale: 0
+            h-translation-base: 0
+            h-translation-scale: 0
+            v-translation-base: 0
+            v-translation-scale: 0
+            h-cycles: 1
+            v-cycles: 1
+            particle: 'Redstone'
+            arrangement: 'Circle'
+            radius-base: 0.01
+            radius-scale: 0
+            particles-base: 1
+            particles-scale: 0
+            direction: 'XZ'
+            visible-radius: 25
+            dx: 1
+            dy: 1
+            dz: 1
+            speed: 1
+            amount: 0
+            forward: 1.5
+            upward: 0
+            right: 0
+        Potion-p:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            potion: 'Levitation'
+            ambient: 'True'
+            tier-base: 1
+            tier-scale: 0
+            seconds-base: 2
+            seconds-scale: 0
+        Sound-q:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            sound: 'Entity Creeper Primed'
+            volume-base: 100
+            volume-scale: 0
+            pitch-base: 1
+            pitch-scale: 0

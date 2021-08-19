@@ -1,0 +1,31 @@
+template: 白装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o绵羊的皮毛？用来做一条软乎暖和，保暖性极'
+- '&7&o好的原始被子或许很不错，做盔甲？不，这只'
+- '&7&o会让你的皮肉在风干羊皮烧焦味道的混合下更'
+- '&7&o合恶魔们的胃口，事实上，工匠们早已无数次'
+- '&7&o确认过这件护甲的材质，他们想要证明这材质'
+- '&7&o并不是看上去那样，只是单纯的羊毛。'
+- '                             &7&m     &7&o石雕上的青鸟'
+custom: {}
+sell: 
+  ks: '4'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '800'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 绵羊毛皮甲基础属性
+type: diamond_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '70'
+template-not-appraisal: 随机衣服
+name: 绵羊毛皮甲
+can-streng: false
+unbreakable: true

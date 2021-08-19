@@ -1,0 +1,26 @@
+template: 蓝装手套模板
+damage: 0
+need-class: []
+equip-type: 手套
+can-reset: false
+introduce:
+- '&7&o牛皮革做成的手套，农夫们都在用的好手套。'
+- '&7&o'
+- '                            &7&m     &7&oShadow 阁下'
+custom: {}
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '100'
+custom-model-data: 0
+entry:
+  basic: 皮手套基础属性
+  random: 蓝_类别_27_等级_3
+type: stone
+gem:
+  driller: false
+hide: 63
+need-level: '3'
+template-not-appraisal: 随机手套
+name: 皮手套
+can-streng: false
+unbreakable: true

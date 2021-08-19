@@ -1,0 +1,27 @@
+template: 白装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o由帝国工匠专门为将领所打造的盔甲，装甲更'
+- '&7&o加强大，但是随之而来的是更加的重一些。'
+- '                                 &7&m     &7&oshiwtime'
+custom: {}
+sell: 
+  ks: '2'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '300'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 铠甲基础属性
+type: diamond_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '24'
+template-not-appraisal: 随机衣服
+name: 铠甲
+can-streng: false
+unbreakable: true

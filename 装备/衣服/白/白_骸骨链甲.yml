@@ -1,0 +1,31 @@
+template: 白装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o生前强大且憎恶世界的恶棍在死后将灵魂出卖'
+- '&7&o给了地狱，他们的身躯飞快腐烂变成了一具骷'
+- '&7&o髅架子，只有附带神圣力量的武器才能打败他'
+- '&7&o们，值得一提的是，骷髅们的骨架子看似脆弱'
+- '&7&o，却防御力惊人，士兵们将他杀死后，将他的'
+- '&7&o骨头绑定在链甲上，得到了骸骨链甲。'
+- '                               &7&m     &7&oShadow阁下'
+custom: {}
+sell: 
+  ks: '4'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '800'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 骸骨链甲基础属性
+type: diamond_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '74'
+template-not-appraisal: 随机衣服
+name: 骸骨链甲
+can-streng: false
+unbreakable: true

@@ -1,0 +1,6 @@
+普通_6级掉落包:
+- type=pxrpgexp;amount=94;prob=1
+- type=money;amount=37;prob=0.1
+- type=equip;id=RandomWeight(random(1,4){1,1,1,1:白_布甲,白_皮手套,白_皮甲,白_硬皮甲});prob=0.025;level=6
+- type=equip;id=RandomWeight(random(1,4){1,1,1,1:蓝_布甲,蓝_皮手套,蓝_皮甲,蓝_硬皮甲});prob=0.025;level=6
+- type=equip;id=RandomWeight(random(1,4){1,1,1,1:黄_布甲,黄_皮手套,黄_皮甲,黄_硬皮甲});prob=0.025;level=6

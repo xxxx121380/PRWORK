@@ -1,0 +1,6 @@
+普通_1级掉落包:
+- type=pxrpgexp;amount=15;prob=1
+- type=money;amount=10;prob=0.1
+- type=equip;id=RandomWeight(random(1,1){1:白_布甲});prob=0.025;level=1
+- type=equip;id=RandomWeight(random(1,1){1:蓝_布甲});prob=0.025;level=1
+- type=equip;id=RandomWeight(random(1,1){1:黄_布甲});prob=0.025;level=1

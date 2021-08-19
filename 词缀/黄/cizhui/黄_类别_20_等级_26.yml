@@ -1,0 +1,610 @@
+random-amount: 'RandomWeight(random(1,100){52,26,13,6,3:2,3,4,5,6})'
+entries:
+  后缀1:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(10,20)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f▣ &f[后缀]  &9结实  &f防御值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀2
+      - 后缀3
+      - 后缀4
+      - 后缀5
+  后缀2:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(21,30)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f▣ &f[后缀]  &9结实  &f防御值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀1
+      - 后缀3
+      - 后缀4
+      - 后缀5
+  后缀3:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(31,40)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f▣ &f[后缀]  &9强壮  &f防御值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀1
+      - 后缀2
+      - 后缀4
+      - 后缀5
+  后缀4:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(41,50)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f▣ &f[后缀]  &9光荣  &f防御值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀1
+      - 后缀2
+      - 后缀3
+      - 后缀5
+  后缀5:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(51,65)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f▣ &f[后缀]  &9祝福  &f防御值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀1
+      - 后缀2
+      - 后缀3
+      - 后缀4
+  后缀6:
+    type: attribute
+    data:
+      id: 额外法力值
+      min: RandomInt(1,2)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&1▣ &f[后缀]  &9蜥蜴  &1额外法力值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀7
+  后缀7:
+    type: attribute
+    data:
+      id: 额外法力值
+      min: RandomInt(3,5)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&1▣ &f[后缀]  &9蜥蜴  &1额外法力值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀6
+  后缀8:
+    type: attribute
+    data:
+      id: 抗火
+      min: Random(0.05,0.05)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&c▣ &f[后缀]  &9枣红  &c抗火&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀9
+      - 后缀10
+      - 后缀11
+      - 后缀12
+  后缀9:
+    type: attribute
+    data:
+      id: 抗火
+      min: Random(0.05,0.1)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&c▣ &f[后缀]  &9枣红  &c抗火&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀8
+      - 后缀10
+      - 后缀11
+      - 后缀12
+  后缀10:
+    type: attribute
+    data:
+      id: 抗火
+      min: Random(0.11,0.2)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&c▣ &f[后缀]  &9赤褐  &c抗火&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀8
+      - 后缀9
+      - 后缀11
+      - 后缀12
+  后缀11:
+    type: attribute
+    data:
+      id: 抗火
+      min: Random(0.21,0.3)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&c▣ &f[后缀]  &9深红  &c抗火&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀8
+      - 后缀9
+      - 后缀10
+      - 后缀12
+  后缀12:
+    type: attribute
+    data:
+      id: 抗火
+      min: Random(0.31,0.4)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&c▣ &f[后缀]  &9红宝石  &c抗火&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀8
+      - 后缀9
+      - 后缀10
+      - 后缀11
+  后缀13:
+    type: attribute
+    data:
+      id: 抗冰
+      min: Random(0.05,0.05)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&b▣ &f[后缀]  &9天青  &b抗冰&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀14
+      - 后缀15
+      - 后缀16
+      - 后缀17
+  后缀14:
+    type: attribute
+    data:
+      id: 抗冰
+      min: Random(0.05,0.1)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&b▣ &f[后缀]  &9天青  &b抗冰&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀13
+      - 后缀15
+      - 后缀16
+      - 后缀17
+  后缀15:
+    type: attribute
+    data:
+      id: 抗冰
+      min: Random(0.11,0.2)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&b▣ &f[后缀]  &9天蓝  &b抗冰&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀13
+      - 后缀14
+      - 后缀16
+      - 后缀17
+  后缀16:
+    type: attribute
+    data:
+      id: 抗冰
+      min: Random(0.21,0.3)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&b▣ &f[后缀]  &9钴蓝  &b抗冰&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀13
+      - 后缀14
+      - 后缀15
+      - 后缀17
+  后缀17:
+    type: attribute
+    data:
+      id: 抗冰
+      min: Random(0.31,0.4)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&b▣ &f[后缀]  &9蓝宝石  &b抗冰&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀13
+      - 后缀14
+      - 后缀15
+      - 后缀16
+  后缀18:
+    type: attribute
+    data:
+      id: 抗电
+      min: Random(0.05,0.05)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&4▣ &f[后缀]  &9明黄  &4抗电&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀19
+      - 后缀20
+      - 后缀21
+      - 后缀22
+  后缀19:
+    type: attribute
+    data:
+      id: 抗电
+      min: Random(0.05,0.1)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&4▣ &f[后缀]  &9明黄  &4抗电&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀18
+      - 后缀20
+      - 后缀21
+      - 后缀22
+  后缀20:
+    type: attribute
+    data:
+      id: 抗电
+      min: Random(0.11,0.2)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&4▣ &f[后缀]  &9赭黄  &4抗电&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀18
+      - 后缀19
+      - 后缀21
+      - 后缀22
+  后缀21:
+    type: attribute
+    data:
+      id: 抗电
+      min: Random(0.21,0.3)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&4▣ &f[后缀]  &9珊瑚  &4抗电&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀18
+      - 后缀19
+      - 后缀20
+      - 后缀22
+  后缀22:
+    type: attribute
+    data:
+      id: 抗电
+      min: Random(0.31,0.4)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&4▣ &f[后缀]  &9黄宝石  &4抗电&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀18
+      - 后缀19
+      - 后缀20
+      - 后缀21
+  后缀23:
+    type: attribute
+    data:
+      id: 抗毒
+      min: Random(0.05,0.05)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&a▣ &f[后缀]  &9青绿  &a抗毒&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀24
+      - 后缀25
+      - 后缀26
+      - 后缀27
+  后缀24:
+    type: attribute
+    data:
+      id: 抗毒
+      min: Random(0.05,0.1)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&a▣ &f[后缀]  &9青绿  &a抗毒&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀23
+      - 后缀25
+      - 后缀26
+      - 后缀27
+  后缀25:
+    type: attribute
+    data:
+      id: 抗毒
+      min: Random(0.11,0.2)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&a▣ &f[后缀]  &9铭绿  &a抗毒&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀23
+      - 后缀24
+      - 后缀26
+      - 后缀27
+  后缀26:
+    type: attribute
+    data:
+      id: 抗毒
+      min: Random(0.21,0.3)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&a▣ &f[后缀]  &9翠绿  &a抗毒&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀23
+      - 后缀24
+      - 后缀25
+      - 后缀27
+  后缀27:
+    type: attribute
+    data:
+      id: 抗毒
+      min: Random(0.31,0.4)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&a▣ &f[后缀]  &9绿宝石  &a抗毒&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀23
+      - 后缀24
+      - 后缀25
+      - 后缀26
+  后缀28:
+    type: attribute
+    data:
+      id: 萨满增强技能加成
+      min: RandomInt(1,1)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f▣ &f[后缀]  &9增强  &f萨满增强技能加成&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀29
+  后缀29:
+    type: attribute
+    data:
+      id: 萨满元素技能加成
+      min: RandomInt(1,1)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f▣ &f[后缀]  &9大地  &f萨满元素技能加成&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
+      exclude:
+      - 后缀28
+  前缀1:
+    type: attribute
+    data:
+      id: 精力
+      min: RandomInt(1,1)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&b▣ &f[前缀]  &9能源  &b精力&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+      exclude:
+      - 前缀2
+      - 前缀3
+      - 前缀4
+  前缀2:
+    type: attribute
+    data:
+      id: 精力
+      min: RandomInt(4,4)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&b▣ &f[前缀]  &9思想  &b精力&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+      exclude:
+      - 前缀1
+      - 前缀3
+      - 前缀4
+  前缀3:
+    type: attribute
+    data:
+      id: 精力
+      min: RandomInt(7,7)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&b▣ &f[前缀]  &9才华  &b精力&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+      exclude:
+      - 前缀1
+      - 前缀2
+      - 前缀4
+  前缀4:
+    type: attribute
+    data:
+      id: 精力
+      min: RandomInt(11,11)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&b▣ &f[前缀]  &9幻术  &b精力&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+      exclude:
+      - 前缀1
+      - 前缀2
+      - 前缀3
+  前缀5:
+    type: attribute
+    data:
+      id: 额外生命值
+      min: RandomInt(1,1)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&c▣ &f[前缀]  &9豺狼  &c额外生命值&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+      exclude:
+      - 前缀6
+  前缀6:
+    type: attribute
+    data:
+      id: 额外生命值
+      min: RandomInt(6,6)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&c▣ &f[前缀]  &9狐狸  &c额外生命值&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+      exclude:
+      - 前缀5

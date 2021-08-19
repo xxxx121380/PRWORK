@@ -1,0 +1,30 @@
+template: 蓝装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o炎魔是一种很强大的地狱生物，通常需要一个'
+- '&7&o百人队才有实力去围剿它。它浑身燃烧着火焰'
+- '&7&o，但他的皮肤却没有想象的灼热，他死后，工'
+- '&7&o匠们将它的皮肤与铠甲融合锻造，得到了防御'
+- '&7&o力强大且充满韧性的炎魔皮板甲。'
+- '                               &7&m     &7&oShadow阁下'
+custom: {}
+sell: 
+  ks: '3'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '800'
+custom-model-data: 0
+entry:
+  basic: 炎魔皮板甲基础属性
+  random: 蓝_类别_26_等级_74
+type: iron_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '76'
+template-not-appraisal: 随机衣服
+name: 炎魔皮板甲
+can-streng: false
+unbreakable: true

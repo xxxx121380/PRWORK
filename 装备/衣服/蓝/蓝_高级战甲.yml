@@ -1,0 +1,28 @@
+template: 蓝装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o由帝国高级工匠专门为一些精锐部队所打造的'
+- '&7&o装甲，在不增加重量的情况下，大幅度增加其'
+- '&7&o防御力。'
+- '                                 &7&m     &7&oshiwtime'
+custom: {}
+sell: 
+  ks: '3'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '400'
+custom-model-data: 0
+entry:
+  basic: 高级战甲基础属性
+  random: 蓝_类别_26_等级_37
+type: iron_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '37'
+template-not-appraisal: 随机衣服
+name: 高级战甲
+can-streng: false
+unbreakable: true

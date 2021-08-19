@@ -1,0 +1,27 @@
+template: 蓝装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o铁匠恰西打造的常见胸甲，营地中的大多数人'
+- '&7&o都拥有这么一件坚硬耐用的盔甲。 。'
+- '                             &7&m     &7&o石雕上的青鸟'
+custom: {}
+sell: 
+  ks: '2'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '200'
+custom-model-data: 0
+entry:
+  basic: 胸甲基础属性
+  random: 蓝_类别_26_等级_18
+type: iron_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '18'
+template-not-appraisal: 随机衣服
+name: 胸甲
+can-streng: false
+unbreakable: true

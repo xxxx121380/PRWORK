@@ -1,0 +1,30 @@
+template: 白装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o天外的陨石坠落在帝国的土地上，重达千吨的'
+- '&7&o陨石上只提炼出了一百斤陨铁。漆黑的陨铁似'
+- '&7&o乎拥有坚不可摧的特性，令许多锻造大师都无'
+- '&7&o可奈何，最终在谢尔兜和火魔法师安亚的共同'
+- '&7&o努力下，炼成了它。'
+- '                               &7&m     &7&oShadow阁下'
+custom: {}
+sell: 
+  ks: '4'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '900'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 漆甲基础属性
+type: diamond_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '82'
+template-not-appraisal: 随机衣服
+name: 漆甲
+can-streng: false
+unbreakable: true

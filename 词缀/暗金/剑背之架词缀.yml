@@ -1,0 +1,54 @@
+random-amount: '4'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 防御值
+      min: Random(0.3,0.6)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 格挡率
+      min: Random(0.2,0.2)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&6◈ &f[固有词缀]  &6格挡率&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(8,10)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 撕开伤口
+      min: Random(0.4,0.5)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&d◈ &f[固有词缀]  &d撕开伤口&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

@@ -1,0 +1,18 @@
+template: 蓝珠宝模板
+damage: 0
+introduce:
+- '&7&o裂开的宝石，从中透露出一丝光泽，镶嵌在装'
+- '&7&o备上能提供一定的属性。'
+custom: {}
+gem-type: 珠宝
+sell:
+  score: '{entry.random}'
+custom-model-data: 0
+entry:
+  random: 蓝_类别_33_等级_19
+type: stone
+inlaid-equip-type:
+- 所有装备
+hide: 63
+name: 裂开的红宝石
+unbreakable: true

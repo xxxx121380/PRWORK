@@ -1,0 +1,26 @@
+template: 蓝装手套模板
+damage: 0
+need-class: []
+equip-type: 手套
+can-reset: false
+introduce:
+- '&7&o这是一件带有攻击性的手套，在没有武器的时'
+- '&7&o候，可以试试用他。'
+- '                             &7&m     &7&oShadow阁下'
+custom: {}
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '500'
+custom-model-data: 0
+entry:
+  basic: 荆棘连指手套基础属性
+  random: 蓝_类别_27_等级_43
+type: stone
+gem:
+  driller: false
+hide: 63
+need-level: '43'
+template-not-appraisal: 随机手套
+name: 荆棘连指手套
+can-streng: false
+unbreakable: true

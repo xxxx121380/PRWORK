@@ -1,0 +1,31 @@
+template: 白装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o为守护帝国的荣耀，阴影兵团的全体将士死后'
+- '&7&o都埋葬在抗击地狱的桥头堡“黑暗山”之上，'
+- '&7&o或许是不屈的忠骨感动了神明，亦或是黑暗气'
+- '&7&o息的厚积薄发，一些士兵骸骨上的“锁子甲”'
+- '&7&o逐渐变得阴暗且令人恐惧，最终变成了令后世'
+- '&7&o闻风丧胆的阴影铠甲。'
+- '                               &7&m     &7&oShadow阁下'
+custom: {}
+sell: 
+  ks: '4'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '900'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 阴影铠甲基础属性
+type: diamond_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '83'
+template-not-appraisal: 随机衣服
+name: 阴影铠甲
+can-streng: false
+unbreakable: true

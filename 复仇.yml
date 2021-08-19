@@ -1,0 +1,264 @@
+复仇:
+  name: '复仇'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'None'
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  msg: '&6{player} &2has cast &6{skill}'
+  combo: ''
+  indicator: '2D'
+  icon: 'ACACIA_DOOR'
+  icon-data: 0
+  icon-lore:
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  attributes:
+    level-base: 0
+    level-scale: 0
+    cost-base: 0
+    cost-scale: 0
+    cooldown-base: 0
+    cooldown-scale: 0
+    mana-base: 0
+    mana-scale: 0
+    points-spent-req-base: 0
+    points-spent-req-scale: 0
+    incompatible:
+    - ''
+  components:
+    Physical Damage-a:
+      type: 'trigger'
+      data:
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Both'
+        dmg-min: 0
+        dmg-max: 999999
+      children:
+        Flag-b:
+          type: 'condition'
+          data:
+            icon-key: ''
+            type: 'Set'
+            key: '复仇'
+          children:
+            Particle Animation-c:
+              type: 'mechanic'
+              data:
+                icon-key: ''
+                counts: 'True'
+                steps: 10
+                frequency: 0.05
+                angle: 150
+                start: -75
+                duration-base: 0.15
+                duration-scale: 0
+                h-translation-base: 0
+                h-translation-scale: 0
+                v-translation-base: 0
+                v-translation-scale: 0
+                h-cycles: 1
+                v-cycles: 1
+                particle: 'Block Crack'
+                material: 'Redstone Block'
+                type: 0
+                arrangement: 'Circle'
+                radius-base: 0.2
+                radius-scale: 0
+                particles-base: 3
+                particles-scale: 0
+                direction: 'XZ'
+                forward: 1.2
+                upward: 1.2
+                right: 0
+            Sound-d:
+              type: 'mechanic'
+              data:
+                icon-key: ''
+                counts: 'True'
+                sound: 'Entity Wither Break Block'
+                volume-base: 100
+                volume-scale: 0
+                pitch-base: 1
+                pitch-scale: 0
+            Cone-e:
+              type: 'target'
+              data:
+                icon-key: ''
+                range-base: 4
+                range-scale: 0
+                angle-base: 90
+                angle-scale: 0
+                group: 'Enemy'
+                wall: 'False'
+                caster: 'False'
+                max-base: 1
+                max-scale: 0
+              children:
+                Damage-f:
+                  type: 'mechanic'
+                  data:
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: 1
+                    value-scale: 0
+                    true: 'False'
+                    classifier: '主体伤害'
+                Flag-g:
+                  type: 'condition'
+                  data:
+                    icon-key: ''
+                    type: 'Set'
+                    key: '牺牲效果'
+                  children:
+                    Damage-h:
+                      type: 'mechanic'
+                      data:
+                        icon-key: ''
+                        counts: 'True'
+                        type: 'Damage'
+                        value-base: 1
+                        value-scale: 0
+                        true: 'False'
+                        classifier: '双倍伤害'
+    Cast-i:
+      type: 'trigger'
+      data:
+        icon-key: ''
+      children:
+        Flag-j:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            key: '复仇'
+            seconds-base: 4
+            seconds-scale: 0
+        Sound-k:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            sound: 'Entity Creeper Primed'
+            volume-base: 100
+            volume-scale: 0
+            pitch-base: 1
+            pitch-scale: 0
+        Particle Animation-l:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            steps: 3
+            frequency: 0.05
+            angle: 360
+            start: -90
+            duration-base: 1
+            duration-scale: 0
+            h-translation-base: 0
+            h-translation-scale: 0
+            v-translation-base: 2
+            v-translation-scale: 0
+            h-cycles: 1
+            v-cycles: 1
+            particle: 'Barrier'
+            arrangement: 'Circle'
+            radius-base: 0.01
+            radius-scale: 0
+            particles-base: 1
+            particles-scale: 0
+            direction: 'XZ'
+            forward: 1.2
+            upward: 0
+            right: 0
+        Particle Animation-m:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            steps: 3
+            frequency: 0.05
+            angle: 360
+            start: 0
+            duration-base: 1
+            duration-scale: 0
+            h-translation-base: 0
+            h-translation-scale: 0
+            v-translation-base: 2
+            v-translation-scale: 0
+            h-cycles: 1
+            v-cycles: 1
+            particle: 'Barrier'
+            arrangement: 'Circle'
+            radius-base: 0.01
+            radius-scale: 0
+            particles-base: 1
+            particles-scale: 0
+            direction: 'XZ'
+            forward: 1.2
+            upward: 0
+            right: 0
+        Particle Animation-n:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            steps: 3
+            frequency: 0.05
+            angle: 360
+            start: 90
+            duration-base: 1
+            duration-scale: 0
+            h-translation-base: 0
+            h-translation-scale: 0
+            v-translation-base: 2
+            v-translation-scale: 0
+            h-cycles: 1
+            v-cycles: 1
+            particle: 'Barrier'
+            arrangement: 'Circle'
+            radius-base: 0.01
+            radius-scale: 0
+            particles-base: 1
+            particles-scale: 0
+            direction: 'XZ'
+            forward: 1.2
+            upward: 0
+            right: 0
+        Particle Animation-o:
+          type: 'mechanic'
+          data:
+            icon-key: ''
+            counts: 'True'
+            steps: 3
+            frequency: 0.05
+            angle: 360
+            start: 180
+            duration-base: 1
+            duration-scale: 0
+            h-translation-base: 0
+            h-translation-scale: 0
+            v-translation-base: 2
+            v-translation-scale: 0
+            h-cycles: 1
+            v-cycles: 1
+            particle: 'Barrier'
+            arrangement: 'Circle'
+            radius-base: 0.01
+            radius-scale: 0
+            particles-base: 1
+            particles-scale: 0
+            direction: 'XZ'
+            forward: 1.2
+            upward: 0
+            right: 0

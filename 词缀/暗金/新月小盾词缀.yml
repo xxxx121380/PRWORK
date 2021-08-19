@@ -1,0 +1,63 @@
+random-amount: '5'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 力量
+      min: RandomInt(2,2)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f◈ &f[固有词缀]  &f力量&f {attribute.streng.summary}'
+      order: 5
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 精力
+      min: RandomInt(8,10)
+      max: RandomInt(10,0)
+      float: 0.0
+      display:
+      - '&0◈ &f[固有词缀]  &0精力&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 格挡率
+      min: RandomInt(0,0)
+      max: RandomInt(0,0)
+      float: 0.0
+      display:
+      - '&6◈ &f[固有词缀]  &6格挡率&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(25,25)
+      max: RandomInt(30,30)
+      float: 0.0
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀5:
+    type: attribute
+    data:
+      id: 体力
+      min: RandomInt(8,8)
+      max: RandomInt(10,10)
+      float: 0.0
+      display:
+      - '&5◈ &f[固有词缀]  &5体力&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

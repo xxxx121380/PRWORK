@@ -1,0 +1,54 @@
+random-amount: '4'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 防御值
+      min: Random(1,1.3)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 力量
+      min: RandomInt(4,5)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f◈ &f[固有词缀]  &f力量&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 物理减伤
+      min: RandomInt(4,5)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&d◈ &f[固有词缀]  &d物理减伤&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 物理减伤
+      min: Random(0.08,0.1)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&d◈ &f[固有词缀]  &d物理减伤&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

@@ -1,0 +1,54 @@
+random-amount: '4'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 防御值
+      min: Random(0.6,0.8)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 魔法减伤
+      min: RandomInt(2,3)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&d◈ &f[固有词缀]  &d魔法减伤&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 减目标伤害
+      min: Random(0.04,0.05)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&7◈ &f[固有词缀]  &7减目标伤害&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 减目标准确
+      min: Random(0.1,0.15)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&7◈ &f[固有词缀]  &7减目标准确&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

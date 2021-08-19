@@ -1,0 +1,9 @@
+name: 萨满伤害加成
+tip : []
+sell :
+  score : '({min.sign}+{max.sign})*100*1'
+  money : '({min.sign}+{max.sign})*100*1'
+view : false
+affected-by-streng : false
+streng : '0'
+range : false

@@ -1,0 +1,26 @@
+template: 蓝装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o由一层层布匹缝制而成。'
+- '                                     &7&m     &7&o沭阳'
+custom: {}
+sell: 
+  ks: '1'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '100'
+custom-model-data: 0
+entry:
+  basic: 布甲基础属性
+  random: 蓝_类别_26_等级_1
+type: iron_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '1'
+template-not-appraisal: 随机衣服
+name: 布甲
+can-streng: false
+unbreakable: true

@@ -1,0 +1,25 @@
+entries:
+  锁环甲_基础_防御值:
+    type: attribute
+    data:
+      id: 防御值
+      min: randomInt(45,48)
+      max: {min}
+      sign: false
+      float: 0
+      order: 2
+      display:
+      - '&f◈&l 类型: 中型'
+      - '&c&m  &6&m  &e&m  &a&m  &3&m  &9&m  &5&m  &f&l基  础  属  性&r&5&m  &9&m  &3&m  &a&m  &e&m  &6&m  &c&m  '
+      - '&7▣ 防御值: &9{attribute.streng.summary}'
+  锁环甲_基础_移动速度:
+    type: attribute
+    data:
+      id: 移动速度
+      min: 0
+      max: {min}
+      sign: true
+      float: 0
+      order: 1
+      display:
+      - '&a▣ 移动速度: &9{attribute.streng.summary}'

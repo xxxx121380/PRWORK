@@ -1,0 +1,28 @@
+template: 蓝装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o以魔力线织出网状，覆盖在镶皮甲表层，能有'
+- '&7&o效吸收冲击，并减轻穿刺攻击的伤害，提供了'
+- '&7&o不俗的防御力。'
+- '                                 &7&m     &7&o遗忘城主'
+custom: {}
+sell: 
+  ks: '2'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '500'
+custom-model-data: 0
+entry:
+  basic: 织网战甲基础属性
+  random: 蓝_类别_26_等级_45
+type: iron_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '45'
+template-not-appraisal: 随机衣服
+name: 织网战甲
+can-streng: false
+unbreakable: true

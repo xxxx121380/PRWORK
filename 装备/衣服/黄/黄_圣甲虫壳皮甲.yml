@@ -1,0 +1,33 @@
+template: 黄装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o象征着灵魂之勇敢与坚韧，一只甲虫被残留于'
+- '&7&o这个世间的神格影响，身躯如同神灵般庞大，'
+- '&7&o无时无刻得散发出太阳的光芒，被当地的人们'
+- '&7&o视为他们神话中太阳神“冕”的化身，并命名'
+- '&7&o为圣甲虫。但不幸的混沌侵蚀了他们，整个族'
+- '&7&o群和他们的圣甲虫一起化作了历史，唯有被后'
+- '&7&o来人从那遮蔽苍穹的身躯上剥落下来的金色外'
+- '&7&o壳还在述说着那段与神明并肩的过往。 。'
+- '                             &7&m     &7&o石雕上的青鸟'
+custom: {}
+sell: 
+  ks: '0'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '700'
+custom-model-data: 0
+entry:
+  basic: 圣甲虫壳皮甲基础属性
+  random: 黄_类别_26_等级_60
+type: iron_chestplate
+gem:
+  driller: false
+hide: 63
+need-level: '68'
+template-not-appraisal: 随机衣服
+name: 圣甲虫壳皮甲
+can-streng: false
+unbreakable: true

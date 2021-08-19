@@ -1,0 +1,32 @@
+template: 黄装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o混沌，被抛弃，混沌，憎恶着纯净，这也确实'
+- '&7&o是它所应该持有的情绪，它生来便承载着这世'
+- '&7&o界的一切阴暗与罪恶，它渴望毁灭，渴望着将'
+- '&7&o灾厄，带给一切不属于它的事物。于是，混沌'
+- '&7&o看见了，混沌它在说着，它在低喃，在咒骂，'
+- '&7&o在念念狂躁，它，在降临。这件充斥着混沌意'
+- '&7&o志与力量的铠甲将会为世界带来邪恶。'
+- '                             &7&m     &7&o石雕上的青鸟'
+custom: {}
+sell: 
+  ks: '0'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '700'
+custom-model-data: 0
+entry:
+  basic: 混沌战甲基础属性
+  random: 黄_类别_26_等级_60
+type: iron_chestplate
+gem:
+  driller: false
+hide: 63
+need-level: '61'
+template-not-appraisal: 随机衣服
+name: 混沌战甲
+can-streng: false
+unbreakable: true

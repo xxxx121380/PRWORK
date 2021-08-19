@@ -1,0 +1,25 @@
+template: 蓝装手套模板
+damage: 0
+need-class: []
+equip-type: 手套
+can-reset: false
+introduce:
+- '&7&o鲨鱼皮制成的手套，听说对不死族有奇效？'
+- '                             &7&m     &7&oShadow阁下'
+custom: {}
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '400'
+custom-model-data: 0
+entry:
+  basic: 鲨皮手套基础属性
+  random: 蓝_类别_27_等级_25
+type: stone
+gem:
+  driller: false
+hide: 63
+need-level: '30'
+template-not-appraisal: 随机手套
+name: 鲨皮手套
+can-streng: false
+unbreakable: true

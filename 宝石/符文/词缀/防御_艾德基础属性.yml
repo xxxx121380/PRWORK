@@ -1,0 +1,11 @@
+entries:
+  词缀:
+    type: attribute
+    data:
+      id: 生命回复
+      min: 2
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&5&l◈ &f[符文词缀]&b{attribute.name} &f{attribute.value}'

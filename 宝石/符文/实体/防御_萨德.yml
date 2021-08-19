@@ -1,0 +1,23 @@
+template: 宝石符文模板
+damage: 0
+introduce:
+- '&f符文是一种篆刻了神秘象形文字的小石头，'
+- '&f可以放入带孔装备中获取强大增益。传闻当'
+- '&f几个符文按照一定的顺序插入后，可以获得'
+- '&f加强大的综合属性。'
+custom: {}
+gem-type: 符文-防具
+sell:
+  score: '{entry.basic}'
+custom-model-data: 0
+entry:
+  basic: 防御_萨德基础属性
+type: stone
+inlaid-equip-type:
+- 衣服
+- 盾牌
+- 头盔
+- 衣服
+hide: 63
+name: 萨德
+unbreakable: true

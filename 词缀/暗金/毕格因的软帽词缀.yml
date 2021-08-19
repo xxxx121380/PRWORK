@@ -1,0 +1,67 @@
+random-amount: '5'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 准确率
+      min: RandomInt(20,30)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&6◈ &f[固有词缀]  &6准确率&f {attribute.streng.summary}'
+      order: 5
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 增强伤害
+      min: Random(0.2,0.3)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&5◈ &f[固有词缀]  &5增强伤害&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 额外法力值
+      min: RandomInt(10,15)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&b◈ &f[固有词缀]  &b额外法力值&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 额外生命值
+      min: RandomInt(10,15)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&c◈ &f[固有词缀]  &c额外生命值&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀5:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(10,14)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

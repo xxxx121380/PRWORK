@@ -1,0 +1,9 @@
+name: 暴击率
+tip : []
+sell :
+  score : '({min.value}+{max.value})*(1+({min.sign}+{max.sign})/2)*1'
+  money : '({min.value}+{max.value})*(1+({min.sign}+{max.sign})/2)*1'
+view : false
+affected-by-streng : false
+streng : '0'
+range : false

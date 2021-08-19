@@ -1,0 +1,10 @@
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 火焰伤害
+      min: 5
+      max: 30
+      float: 0.0
+      display:
+      - '&5&l◈ &f[符文词缀]&b{attribute.name} &f{attribute.value}'

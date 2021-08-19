@@ -1,0 +1,80 @@
+random-amount: '6'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 防御值
+      min: Random(0.1,0.2)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 6
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 额外法力值
+      min: RandomInt(15,20)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&b◈ &f[固有词缀]  &b额外法力值&f {attribute.streng.summary}'
+      order: 5
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 抗毒
+      min: Random(0.08,0.1)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&a◈ &f[固有词缀]  &a抗毒&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 吸取生命
+      min: Random(0.002,0.003)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&c◈ &f[固有词缀]  &c吸取生命&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀5:
+    type: attribute
+    data:
+      id: 吸取法力
+      min: Random(0.002,0.003)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&b◈ &f[固有词缀]  &b吸取法力&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀6:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(8,10)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

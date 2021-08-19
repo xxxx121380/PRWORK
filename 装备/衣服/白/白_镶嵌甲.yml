@@ -1,0 +1,28 @@
+template: 白装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o出自工匠之手的制式甲胄，又经要求由工匠们'
+- '&7&o稍作改进，上方镶嵌着少量品质不一的宝石。'
+- '&7&o 。'
+- '                             &7&m     &7&o石雕上的青鸟'
+custom: {}
+sell: 
+  ks: '2'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '100'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 镶嵌甲基础属性
+type: diamond_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '8'
+template-not-appraisal: 随机衣服
+name: 镶嵌甲
+can-streng: false
+unbreakable: true

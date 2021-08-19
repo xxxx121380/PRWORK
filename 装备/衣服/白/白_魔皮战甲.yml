@@ -1,0 +1,27 @@
+template: 白装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o由多个强大魔物的皮所制成的盔甲，表面散发'
+- '&7&o着恐怖的魔力可以抵御多数受到的伤害。'
+- '                                     &7&m     &7&o捌玖'
+custom: {}
+sell: 
+  ks: '3'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '400'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 魔皮战甲基础属性
+type: diamond_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '37'
+template-not-appraisal: 随机衣服
+name: 魔皮战甲
+can-streng: false
+unbreakable: true

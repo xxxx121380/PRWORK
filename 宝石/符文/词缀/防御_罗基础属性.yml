@@ -1,0 +1,11 @@
+entries:
+  词缀:
+    type: attribute
+    data:
+      id: 最大闪电抗性
+      min: 0.05
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&5&l◈ &f[符文词缀]&b{attribute.name} &f{attribute.value}'

@@ -1,0 +1,11 @@
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 命中目标时有25%几率施放Lv10致死
+      min: 1
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&5&l◈ &f[符文词缀]&b{attribute.name} &f{attribute.value}'

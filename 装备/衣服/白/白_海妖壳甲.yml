@@ -1,0 +1,29 @@
+template: 白装衣服模板
+damage: 0
+need-class: []
+equip-type: 衣服
+can-reset: false
+introduce:
+- '&7&o举兵团之力才能杀死的海妖，他的身躯如山岳'
+- '&7&o般庞大，他的壳也如同黑曜石一样坚硬无比，'
+- '&7&o帝国的锻造师们将他切割开来，不停的打磨打'
+- '&7&o磨再打磨，得到了一件件海妖壳甲。'
+- '                               &7&m     &7&oShadow阁下'
+custom: {}
+sell: 
+  ks: '4'
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '900'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 海妖壳甲基础属性
+type: diamond_chestplate
+gem:
+  driller: true
+hide: 63
+need-level: '81'
+template-not-appraisal: 随机衣服
+name: 海妖壳甲
+can-streng: false
+unbreakable: true

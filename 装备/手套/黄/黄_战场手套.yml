@@ -1,0 +1,26 @@
+template: 黄装手套模板
+damage: 0
+need-class: []
+equip-type: 手套
+can-reset: false
+introduce:
+- '&7&o为了适配于地狱战场的高温而专门制作的手套'
+- '&7&o。'
+- '                             &7&m     &7&oShadow阁下'
+custom: {}
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '400'
+custom-model-data: 0
+entry:
+  basic: 战场手套基础属性
+  random: 黄_类别_27_等级_37
+type: stone
+gem:
+  driller: false
+hide: 63
+need-level: '37'
+template-not-appraisal: 随机手套
+name: 战场手套
+can-streng: false
+unbreakable: true

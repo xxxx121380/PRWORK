@@ -1,0 +1,21 @@
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 增强伤害
+      min: 0.3
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&5&l◈ &f[符文词缀]&b{attribute.name} &f{attribute.value}'
+  词缀2:
+    type: attribute
+    data:
+      id: 准确率
+      min: 34
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&5&l◈ &f[符文词缀]&b{attribute.name} &f{attribute.value}'

@@ -1,0 +1,41 @@
+random-amount: '3'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 准确率
+      min: RandomInt(20,25)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&6◈ &f[固有词缀]  &6准确率&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 防御值
+      min: Random(0.2,0.3)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 防御值
+      min: RandomInt(10,15)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&8◈ &f[固有词缀]  &8防御值&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1

@@ -1,0 +1,67 @@
+random-amount: '5'
+entries:
+  词缀1:
+    type: attribute
+    data:
+      id: 毒素伤害
+      min: RandomInt(10,10)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&a◈ &f[固有词缀]  &a毒素伤害&f {attribute.streng.summary}'
+      order: 5
+      weight: 1
+      maximum : 1
+  词缀2:
+    type: attribute
+    data:
+      id: 额外法力值
+      min: RandomInt(7,10)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&b◈ &f[固有词缀]  &b额外法力值&f {attribute.streng.summary}'
+      order: 4
+      weight: 1
+      maximum : 1
+  词缀3:
+    type: attribute
+    data:
+      id: 抗毒
+      min: Random(0.2,0.25)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&a◈ &f[固有词缀]  &a抗毒&f {attribute.streng.summary}'
+      order: 3
+      weight: 1
+      maximum : 1
+  词缀4:
+    type: attribute
+    data:
+      id: 死灵技能加成
+      min: RandomInt(1,1)
+      max: {min}
+      float: 0.0
+      sign: false
+      display:
+      - '&f◈ &f[固有词缀]  &f死灵技能加成&f {attribute.streng.summary}'
+      order: 2
+      weight: 1
+      maximum : 1
+  词缀5:
+    type: attribute
+    data:
+      id: 吸取生命
+      min: Random(0.003,0.005)
+      max: {min}
+      float: 0.0
+      sign: true
+      display:
+      - '&c◈ &f[固有词缀]  &c吸取生命&f {attribute.streng.summary}'
+      order: 1
+      weight: 1
+      maximum : 1
