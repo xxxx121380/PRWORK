@@ -1,4 +1,4 @@
-template: 白装手套模板
+template: 白装模板1
 damage: 0
 need-class: []
 equip-type: 手套
@@ -6,16 +6,17 @@ can-reset: false
 introduce:
 - '&7&o给法师姥爷做的手套，上面有少量的魔法在流'
 - '&7&o动。'
-- '                            &7&m     &7&oShadow 阁下'
-custom: {}
+- '                             &7&m     &7&oShadow阁下'
+custom: 
+  装备类型: '手套'
 sell: 
   score: '{entry.basic}+{entry.random}+{gem}'
-  money: '200'
+  money: '300'
 custom-model-data: 0
 entry:
   random: 普通增强防御
   basic: 轻型铁手套基础属性
-type: stone
+type: BRICK
 gem:
   driller: false
 hide: 63

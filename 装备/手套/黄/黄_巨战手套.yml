@@ -1,4 +1,4 @@
-template: 黄装手套模板
+template: 黄装模板1
 damage: 0
 need-class: []
 equip-type: 手套
@@ -7,7 +7,8 @@ introduce:
 - '&7&o这是给深入地狱腹地的勇士们专门制作的手套'
 - '&7&o。'
 - '                             &7&m     &7&oShadow阁下'
-custom: {}
+custom: 
+  装备类型: '手套'
 sell: 
   score: '{entry.basic}+{entry.random}+{gem}'
   money: '500'
@@ -15,11 +16,11 @@ custom-model-data: 0
 entry:
   basic: 巨战手套基础属性
   random: 黄_类别_27_等级_40
-type: stone
+type: BRICK
 gem:
   driller: false
 hide: 63
-need-level: '41'
+need-level: '31'
 template-not-appraisal: 随机手套
 name: 巨战手套
 can-streng: false

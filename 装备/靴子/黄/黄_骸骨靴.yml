@@ -1,0 +1,27 @@
+template: 黄装模板1
+damage: 0
+need-class: []
+equip-type: 靴子
+can-reset: false
+introduce:
+- '&7&o使用骷髅死亡后的骸骨制造而成，防御不错，'
+- '&7&o但是有少许臭味。'
+- '                               &7&m     &7&oshiwtime'
+custom: 
+  装备类型: '靴子'
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '800'
+custom-model-data: 0
+entry:
+  basic: 骸骨靴基础属性
+  random: 黄_类别_28_等级_56
+type: IRON_BOOTS
+gem:
+  driller: false
+hide: 63
+need-level: '55'
+template-not-appraisal: 随机靴子
+name: 骸骨靴
+can-streng: false
+unbreakable: true

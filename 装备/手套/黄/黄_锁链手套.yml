@@ -1,4 +1,4 @@
-template: 黄装手套模板
+template: 黄装模板1
 damage: 0
 need-class: []
 equip-type: 手套
@@ -7,15 +7,16 @@ introduce:
 - '&7&o用链条制成的手套，是帝国士兵的制式装备。'
 - '&7&o'
 - '                             &7&m     &7&oShadow阁下'
-custom: {}
+custom: 
+  装备类型: '手套'
 sell: 
   score: '{entry.basic}+{entry.random}+{gem}'
   money: '200'
 custom-model-data: 0
 entry:
   basic: 锁链手套基础属性
-  random: 黄_类别_27_等级_9
-type: stone
+  random: 黄_类别_27_等级_12
+type: BRICK
 gem:
   driller: false
 hide: 63

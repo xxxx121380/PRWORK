@@ -1,0 +1,27 @@
+template: 白装模板1
+damage: 0
+need-class: []
+equip-type: 腰带
+can-reset: false
+introduce:
+- '&7&o附带环扣的劣质牛皮带，可以用于挂载物品，'
+- '&7&o但负重过多的话可能会导致皮带断裂。'
+- '                               &7&m     &7&odoomfist'
+custom: 
+  装备类型: '腰带'
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '100'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 轻扣带基础属性
+type: BRICK
+gem:
+  driller: false
+hide: 63
+need-level: '6'
+template-not-appraisal: 随机腰带
+name: 轻扣带
+can-streng: false
+unbreakable: true

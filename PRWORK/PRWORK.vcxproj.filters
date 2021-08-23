@@ -47,13 +47,16 @@
     <ClInclude Include="fuwen.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="hequip\shoutao.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="hequip\yifu.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="baoshi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shoutao.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="yifu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="type1.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,0 +1,12 @@
+entries:
+  阁下_基础_防御值:
+    type: attribute
+    data:
+      id: 防御值
+      min: randomInt(阁下,阁下)
+      max: {min}
+      sign: false
+      float: 0
+      order: 2
+      display:
+      - '&7▣ 防御值: &9{attribute.streng.summary}'

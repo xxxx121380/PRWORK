@@ -150,11 +150,12 @@
     <ClInclude Include="CommonFunction.h" />
     <ClInclude Include="drop.h" />
     <ClInclude Include="fuwen.h" />
-    <ClInclude Include="hequip\shoutao.h" />
-    <ClInclude Include="hequip\yifu.h" />
     <ClInclude Include="mobs.h" />
     <ClInclude Include="shenqi.h" />
+    <ClInclude Include="shoutao.h" />
+    <ClInclude Include="type1.h" />
     <ClInclude Include="yellowCZ.h" />
+    <ClInclude Include="yifu.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />

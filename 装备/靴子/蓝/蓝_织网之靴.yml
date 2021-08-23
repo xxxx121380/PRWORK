@@ -1,0 +1,27 @@
+template: 蓝装模板1
+damage: 0
+need-class: []
+equip-type: 靴子
+can-reset: false
+introduce:
+- '&7&o以硬质皮革为基底，覆上编织成网状的魔力丝'
+- '&7&o线，能有效吸收尖锐物体的穿刺伤害。'
+- '                               &7&m     &7&o遗忘城主'
+custom: 
+  装备类型: '靴子'
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '500'
+custom-model-data: 0
+entry:
+  basic: 织网之靴基础属性
+  random: 蓝_类别_28_等级_43
+type: IRON_BOOTS
+gem:
+  driller: false
+hide: 63
+need-level: '33'
+template-not-appraisal: 随机靴子
+name: 织网之靴
+can-streng: false
+unbreakable: true

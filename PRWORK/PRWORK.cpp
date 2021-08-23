@@ -8,9 +8,9 @@
 #include"drop.h"
 #include"shenqi.h"
 #include"attribute.h"
-#include"shoutao.h"
 #include"fuwen.h"
 #include"baoshi.h"
+#include"type1.h"
 using namespace std;
 int main()
 {
@@ -20,11 +20,11 @@ int main()
     //outyellowCZ(path);
     //outyifu(path);
 	//outfuwen(path);
-	//outshoutao(path);
-    outbaoshi(path);
+    //outbaoshi(path);
     //outmobs(path);
     //outatt(path);
 	//outshenqiCZ(path);
+	outtype1(path);
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

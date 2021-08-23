@@ -1,0 +1,27 @@
+template: 白装模板1
+damage: 0
+need-class: []
+equip-type: 靴子
+can-reset: false
+introduce:
+- '&7&o附带额外金属插板的金属靴，可以很好地保护'
+- '&7&o小腿与脚背。'
+- '                               &7&m     &7&odoomfist'
+custom: 
+  装备类型: '靴子'
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '300'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 护胫基础属性
+type: IRON_BOOTS
+gem:
+  driller: false
+hide: 63
+need-level: '21'
+template-not-appraisal: 随机靴子
+name: 护胫
+can-streng: false
+unbreakable: true

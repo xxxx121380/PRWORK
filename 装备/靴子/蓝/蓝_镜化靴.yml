@@ -1,0 +1,28 @@
+template: 蓝装模板1
+damage: 0
+need-class: []
+equip-type: 靴子
+can-reset: false
+introduce:
+- '&7&o某个神秘巫师制作的靴子，当时他用魔法轰击'
+- '&7&o这双靴子的时候发生了转变，从此便光滑如镜'
+- '&7&o。'
+- '                               &7&m     &7&oshiwtime'
+custom: 
+  装备类型: '靴子'
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '900'
+custom-model-data: 0
+entry:
+  basic: 镜化靴基础属性
+  random: 蓝_类别_28_等级_70
+type: IRON_BOOTS
+gem:
+  driller: false
+hide: 63
+need-level: '61'
+template-not-appraisal: 随机靴子
+name: 镜化靴
+can-streng: false
+unbreakable: true

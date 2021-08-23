@@ -1,0 +1,26 @@
+template: 蓝装模板1
+damage: 0
+need-class: []
+equip-type: 靴子
+can-reset: false
+introduce:
+- '&7&o一款专门为战场防护制作的战靴。'
+- '                               &7&m     &7&oshiwtime'
+custom: 
+  装备类型: '靴子'
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '500'
+custom-model-data: 0
+entry:
+  basic: 战场之靴基础属性
+  random: 蓝_类别_28_等级_45
+type: IRON_BOOTS
+gem:
+  driller: false
+hide: 63
+need-level: '37'
+template-not-appraisal: 随机靴子
+name: 战场之靴
+can-streng: false
+unbreakable: true

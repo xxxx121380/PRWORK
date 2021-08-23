@@ -1,0 +1,27 @@
+template: 黄装模板1
+damage: 0
+need-class: []
+equip-type: 腰带
+can-reset: false
+introduce:
+- '&7&o在腰带上悬挂吸血鬼的牙齿？好吧，你真是个'
+- '&7&o人才。'
+- '                               &7&m     &7&oshiwtime'
+custom: 
+  装备类型: '腰带'
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '700'
+custom-model-data: 0
+entry:
+  basic: 吸血鬼獠牙腰带基础属性
+  random: 黄_类别_29_等级_56
+type: BRICK
+gem:
+  driller: false
+hide: 63
+need-level: '52'
+template-not-appraisal: 随机腰带
+name: 吸血鬼獠牙腰带
+can-streng: false
+unbreakable: true

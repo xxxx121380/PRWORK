@@ -1,0 +1,28 @@
+template: 蓝装模板1
+damage: 0
+need-class: []
+equip-type: 靴子
+can-reset: false
+introduce:
+- '&7&o你使用魔法和一双珍贵的水晶鞋结合起来制成'
+- '&7&o了这双鞋子防御强大速度也有所提升，但是要'
+- '&7&o小心撞墙。'
+- '                               &7&m     &7&oshiwtime'
+custom: 
+  装备类型: '靴子'
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '900'
+custom-model-data: 0
+entry:
+  basic: 极速靴基础属性
+  random: 蓝_类别_28_等级_70
+type: IRON_BOOTS
+gem:
+  driller: false
+hide: 63
+need-level: '64'
+template-not-appraisal: 随机靴子
+name: 极速靴
+can-streng: false
+unbreakable: true

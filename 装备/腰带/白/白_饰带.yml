@@ -1,0 +1,26 @@
+template: 白装模板1
+damage: 0
+need-class: []
+equip-type: 腰带
+can-reset: false
+introduce:
+- '&7&o仅仅是起装饰作用的皮带。'
+- '                               &7&m     &7&odoomfist'
+custom: 
+  装备类型: '腰带'
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '100'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 饰带基础属性
+type: BRICK
+gem:
+  driller: false
+hide: 63
+need-level: '3'
+template-not-appraisal: 随机腰带
+name: 饰带
+can-streng: false
+unbreakable: true

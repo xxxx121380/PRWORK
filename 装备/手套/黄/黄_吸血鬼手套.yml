@@ -1,4 +1,4 @@
-template: 黄装手套模板
+template: 黄装模板1
 damage: 0
 need-class: []
 equip-type: 手套
@@ -9,19 +9,20 @@ introduce:
 - '&7&o更加渴望生命的力量，无论是鲜血还是魔力。'
 - '&7&o'
 - '                             &7&m     &7&oshadow阁下'
-custom: {}
+custom: 
+  装备类型: '手套'
 sell: 
   score: '{entry.basic}+{entry.random}+{gem}'
-  money: '600'
+  money: '700'
 custom-model-data: 0
 entry:
   basic: 吸血鬼手套基础属性
-  random: 黄_类别_27_等级_52
-type: stone
+  random: 黄_类别_27_等级_56
+type: BRICK
 gem:
   driller: false
 hide: 63
-need-level: '52'
+need-level: '48'
 template-not-appraisal: 随机手套
 name: 吸血鬼手套
 can-streng: false

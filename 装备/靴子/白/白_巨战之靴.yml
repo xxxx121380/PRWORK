@@ -1,0 +1,27 @@
+template: 白装模板1
+damage: 0
+need-class: []
+equip-type: 靴子
+can-reset: false
+introduce:
+- '&7&o一款专门为了长途奔袭和战场防护的制作的战'
+- '&7&o靴。'
+- '                               &7&m     &7&oshiwtime'
+custom: 
+  装备类型: '靴子'
+sell: 
+  score: '{entry.basic}+{entry.random}+{gem}'
+  money: '600'
+custom-model-data: 0
+entry:
+  random: 普通增强防御
+  basic: 巨战之靴基础属性
+type: IRON_BOOTS
+gem:
+  driller: false
+hide: 63
+need-level: '41'
+template-not-appraisal: 随机靴子
+name: 巨战之靴
+can-streng: false
+unbreakable: true

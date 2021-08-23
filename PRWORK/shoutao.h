@@ -128,12 +128,12 @@ void outshoutao(string path)
 		int timei = 0;
 		while (timei != time)
 		{
-			tempstring = introduce.substr(timei * 40, 40);
+			tempstring = introduce.substr(int(timei * 40), 40);
 			timei++;
 			outFile1 << "- \'&7&o" << string2wstring(tempstring) << '\'' << endl;
 			//cout << tempstring << endl;
 		}
-		tempstring = introduce.substr(time * 40, introduce.length() - time * 40);
+		tempstring = introduce.substr(int(time * 40), introduce.length() - int(time * 40));
 		outFile1 << "- \'&7&o" << string2wstring(tempstring) << '\'' << endl;
 		string temp1 = "&7&m     ";
 		outFile1 << "- \'";
@@ -178,7 +178,7 @@ void outshoutao(string path)
 				break;
 			}
 			else if (equiplevel < yellowlevel[i]) {
-				truelevel = yellowlevel[i - 1];
+				truelevel = yellowlevel[int(i - 1)];
 				break;
 			}
 		}
@@ -197,7 +197,7 @@ void outshoutao(string path)
 			timei++;
 			outFile3 << "- \'&7&o" << string2wstring(tempstring) << '\'' << endl;
 		}
-		tempstring = introduce.substr(time * 40, introduce.length() - time * 40);
+		tempstring = introduce.substr(time * 40, int(introduce.length() - time * 40));
 		outFile3 << "- \'&7&o" << string2wstring(tempstring) << '\'' << endl;
 		outFile3 << "- \'";
 		temp1 = "&7&m     ";
